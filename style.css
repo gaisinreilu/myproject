@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    min-height:100vh;
+    background-image: url(https://lens.usercontent.google.com/banana?agsi=CmdnbG9iYWw6OjAwMDA1NWNmZWM3MDAyNmQ6MDAwMDAxNDE6MToyMjE3MDVlY2EyNTU4MzFiOjAwMDA1NWNmZWM3MDAyNmQ6MDAwMDAyZjU2OGQwMzM2ODowMDA2NWU4N2Q0MmRkZGRmEAIYAiIKaW1hZ2UvanBlZw==);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    font-family: Arial, sans-serif;
+    text-align:center;
+}
+.upper {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:20px;
+}
+.logo p{
+    font-size:20px;
+    font-weight:bold;
+}
+nav {
+    display:flex;
+    gap:20px;
+}
+nav a{
+    text-decoration: none;
+    font-size:14px;
+}
+button {
+    border:none;
+    border-radius:25px;
+    padding:12px 24px;
+    cursor:pointer;
+    margin:10px;
+}
+h1 {
+    font-size:42px;
+    margin-top:40px;
+    margin-bottom:15px;
+}
